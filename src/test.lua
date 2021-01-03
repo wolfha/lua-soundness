@@ -1,15 +1,3 @@
-# lua-soundness
-
-Lua module to produce sounds and noise using libao
-
-## dependency
-
-To build the module, you will need libao-dev (on debian) or libao-devel (centos)
-
-## Usage
-
-```lua
-
 local sdn = require 'soundness'
 
 --
@@ -39,6 +27,3 @@ sdn.pause(0.6)
 -- pause(length, volume)
 --
 sdn.noise(2, 0.3);
-
-
-```
