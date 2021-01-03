@@ -101,7 +101,6 @@ int noise(double time_p, double volume_p) {
 static int l_pause(lua_State *L)
 {
         double pause_u = luaL_checknumber(L,1) * 1000000;
-        printf("Pause %d\n", (int) pause_u );
         usleep((int) pause_u);
         return 0;
 }
