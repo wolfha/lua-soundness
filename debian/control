@@ -1,0 +1,14 @@
+Source: lua-soundness
+Section: utils
+Priority: optional
+Maintainer: augmentedlogic development <dev@augmentedlogic.com>
+Homepage: https://github.com/wolfha/lua-soundness.git
+
+Package: lua-soundness
+Architecture: any
+Section: utils
+Priority: optional
+Depends: libc6 (>= 2.27), libao4
+Description: lua beep sound library
+ use lua to make musical beeps
+

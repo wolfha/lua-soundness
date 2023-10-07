@@ -1,3 +1,10 @@
 src/*.0
 src/*.so
 src/*.o
+debian/lua-soundness/
+debian/lua-soundness.substvars
+debian/lua-soundness.debhelper.log
+debian/debhelper-build-stamp
+debian/files
+debian/.debhelper
+
